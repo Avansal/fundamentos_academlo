@@ -1,0 +1,133 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Oswald', sans-serif;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  position:fixed;
+  inline-size:100%;
+  background-color: white;
+  border-block-end: solid 1px #43434320;
+  z-index: 10;
+}
+nav img{
+block-size: 55px;
+}
+nav button {
+  background-color: transparent;
+  border: none;
+}
+nav button i{
+  font-size: 24px;
+  cursor: pointer;
+  color:#434343;
+  transition: 0.5s;
+}
+nav button i:hover{
+  font-size: 28px;
+}
+header {
+/* te lo dejo como ejemplo*/
+block-size: 350px;
+  background-color: #eb4a5a;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+header img{
+block-size: 200px;
+  margin-block-start: 60px;
+}
+.car_block{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-inline-end: 40px;
+background-color: rgb(255 255 255);
+position: fixed;block-size: 85%;
+inset-block-start: 65px;
+inline-size: 40%;
+overflow-y: scroll;
+transition: 0,5s;
+box-shadow: 5px 10px 20px 0px rgba(67, 67, 67, 0.461);
+inset-inline-start: 100%;
+}
+.nav__car__visible {
+  inset-inline-start: 60%;
+}
+
+main h3{
+  margin: 40px;
+  font-size: 26px;
+  color:#434343;
+}
+.principal_container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin: 60px 40px;
+}
+.products__container {
+  max-inline-size: 300px;
+block-size: 100%;
+  transition: all 0.25s;
+}
+.products__container:hover{
+  transform: translateY(-10px);
+  box-shadow: 0px 5px 20px 2px #43434335;
+}
+.products__container__img img {
+  max-inline-size: 290px;
+}
+.products__container__name {
+  margin-block-end: 20px;
+}
+.products__container__name p {
+  inline-size: 200px;
+  padding-inline-start: 20px;
+}
+.principal_container_price{
+  margin-block-end: 20px;
+  display:flex;
+  justify-content: flex-end;
+}
+.products__container__price p {
+  font-size: 20px;
+  font-weight: bold;
+  padding-inline-end: 20px;
+}
+.products__container__button {
+  padding-inline-start: 20px;
+  margin-block-end: 20px;
+}
+.car__button {
+  background-color: #eb4a5a;
+  padding: 8px;
+  color: white;
+  inline-size: 100px;
+  border-radius: 20px;
+  border: solid 1px white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.car__button:hover {
+  transform: translateY(-3px);
+}
+.car_product_image{
+  display: flex;
+  justify-content:  center;
+}
+.car_product_image img{
+  width: 100%;
+  
+}
